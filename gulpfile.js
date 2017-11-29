@@ -12,7 +12,6 @@ gulp.task('css:compile', (cb) => {
   const src = 'src/css/**/*.css';
   pump([
     gulp.src(src),
-    newer(src),
     autoprefixer({
       browsers: 'last 10 versions',
     }),
@@ -40,7 +39,7 @@ gulp.task('dev', ['build'], () => {
   nodemon({
     script: 'server.js',
     watch: 'src',
-    ext: 'js',
+    ext: 'js css html',
     tasks: ['build'],
     legacyWatch: true,
   });
