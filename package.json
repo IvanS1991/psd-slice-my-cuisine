@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "./node_modules/.bin/gulp dev"
+    "dev": "./node_modules/.bin/gulp dev",
+    "eslint": "./node_modules/.bin/eslint ."
   },
   "keywords": [
     "JS",
