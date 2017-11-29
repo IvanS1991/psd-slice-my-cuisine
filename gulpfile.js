@@ -1,10 +1,12 @@
 const gulp = require('gulp');
+const pump = require('pump');
+
 const babel = require('gulp-babel');
+const nodemon = require('gulp-nodemon');
+
 const autoprefixer = require('gulp-autoprefixer');
 const uglify = require('gulp-uglify');
 const newer = require('gulp-newer');
-const pump = require('pump');
-const nodemon = require('gulp-nodemon');
 
 gulp.task('css:compile', (cb) => {
   const src = 'src/css/**/*.css';
