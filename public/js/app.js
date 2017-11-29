@@ -1,18 +1,1 @@
-'use strict';
-
-System.register(['jquery'], function (_export, _context) {
-  "use strict";
-
-  var $;
-  return {
-    setters: [function (_jquery) {
-      $ = _jquery.default;
-    }],
-    execute: function () {
-
-      $('body').html('Imports work!');
-
-      console.log('bambam');
-    }
-  };
-});
+"use strict";System.register(["jquery"],function(t,e){var r;return{setters:[function(t){r=t.default}],execute:function(){r("body").html("Imports work!")}}});
