@@ -1,0 +1,50 @@
+{
+  "name": "psd-slice-my-cuisine",
+  "version": "1.0.0",
+  "description": "Practice project, slicing PSD into a single page app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "gulp build",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "JS",
+    "SPA",
+    "PSD-to-HTML"
+  ],
+  "author": "Ivan Shtarbanov <ivan.shtarbanov1991@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-uglify": "^3.0.0",
+    "live-server": "^1.2.0",
+    "pump": "^1.0.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.2.1",
+    "sammy": "^0.7.6",
+    "systemjs": "^0.20.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanS1991/psd-slice-my-cuisine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IvanS1991/psd-slice-my-cuisine/issues"
+  },
+  "homepage": "https://github.com/IvanS1991/psd-slice-my-cuisine#readme"
+}

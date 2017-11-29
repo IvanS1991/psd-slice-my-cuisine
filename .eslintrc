@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "globals": {
+        "require": false,
+        "describe": false,
+        "it": false,
+        "Promise": false,
+        "beforeEach": false,
+        "afterEach": false,
+        "before": false,
+        "after": false,
+        "module": false
+    }
+}
