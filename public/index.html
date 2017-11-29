@@ -9,12 +9,18 @@
 </head>
 
 <body>
+  <div id="content"></div>
   
   <script src="lib/systemjs/dist/system.js"></script>
   <script>
     System.config({
       map: {
         'jquery': 'lib/jquery/dist/jquery.min.js',
+        'sammy': 'lib/sammy/lib/min/sammy-latest.min.js',
+
+        'home-controller': 'js/controllers/home.js',
+
+        // Controllers
         'app': 'js/app.js'
       }
     });

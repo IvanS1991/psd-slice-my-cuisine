@@ -1,0 +1,1 @@
+"use strict";System.register([],function(t,e){var n;return{setters:[],execute:function(){t("default",n=function(t){t.$element().html("Post")})}}});
